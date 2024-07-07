@@ -375,8 +375,8 @@ For PHP 5.x use [0.1.7](https://github.com/tcdent/php-restclient/releases/tag/0.
 ## Backwards-incompatible changes in RestClient 2
 
 - Ordering of parameters to `RestClient::execute()` has changed.
-The order is now: `method`, `url`, `params`, `headers` instead of 
-`url`, `method`, `params`, `headers`.
+The order is now: `(method, url, params, headers)` instead of 
+`(url, method, params, headers)`.
 - `set_option()` has been removed.
 - Removed support for HTTP basic authentication. 
     Implement yourself like this: `$this->curl_options[CURLOPT_USERPWD] = "username:password"`;

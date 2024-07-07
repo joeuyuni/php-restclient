@@ -1,5 +1,5 @@
-PHP REST Client
-===============
+PHP REST Client 2
+=================
 [![Total Downloads](http://poser.pugx.org/tcdent/php-restclient/downloads)](https://packagist.org/packages/tcdent/php-restclient)
 
 https://github.com/tcdent/php-restclient  
